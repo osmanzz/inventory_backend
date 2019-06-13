@@ -1,7 +1,7 @@
 package usecaseResource
 
 import (
-	"Osman/github.com/inventory_backend/db"
+	"github.com/osmanzz/inventory_backend/db"
 )
 
 type UsecaseResource struct {

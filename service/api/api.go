@@ -1,8 +1,8 @@
 package api
 
 import (
-	"Osman/github.com/inventory_backend/resource/uiresource"
-	"Osman/github.com/inventory_backend/usecase"
+	"github.com/osmanzz/inventory_backend/resource/uiresource"
+	"github.com/osmanzz/inventory_backend/usecase"
 	"log"
 	"net/http"
 )

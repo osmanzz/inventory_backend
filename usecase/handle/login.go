@@ -1,8 +1,8 @@
 package handle
 
 import (
-	"Osman/github.com/inventory_backend/resource/usecaseResource"
-	"Osman/github.com/inventory_backend/usecase"
+	"github.com/osmanzz/inventory_backend/resource/usecaseResource"
+	"github.com/osmanzz/inventory_backend/usecase"
 )
 type LoginRequest struct {
 	Username string `json:"username"`

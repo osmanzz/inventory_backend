@@ -1,10 +1,10 @@
 package server
 
 import (
-	"Osman/github.com/inventory_backend/resource/uiresource"
-	"Osman/github.com/inventory_backend/service/api"
-	"Osman/github.com/inventory_backend/usecase"
-	"Osman/github.com/inventory_backend/usecase/handle"
+	"github.com/osmanzz/inventory_backend/resource/uiresource"
+	"github.com/osmanzz/inventory_backend/service/api"
+	"github.com/osmanzz/inventory_backend/usecase"
+	"github.com/osmanzz/inventory_backend/usecase/handle"
 	"net/http"
 )
 

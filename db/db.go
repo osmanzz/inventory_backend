@@ -1,7 +1,7 @@
 package db
 
 import (
-	"Osman/github.com/inventory_backend/model"
+	"github.com/osmanzz/inventory_backend/model"
 	"database/sql"
 	"sync"
 )

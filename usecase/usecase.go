@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"Osman/github.com/inventory_backend/db"
-	"Osman/github.com/inventory_backend/resource/usecaseResource"
+	"github.com/osmanzz/inventory_backend/db"
+	"github.com/osmanzz/inventory_backend/resource/usecaseResource"
 	"net/http"
 )
 

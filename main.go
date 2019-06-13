@@ -1,12 +1,12 @@
 package main
 
 import (
-	"Osman/github.com/inventory_backend/db"
-	new "Osman/github.com/inventory_backend/init"
-	"Osman/github.com/inventory_backend/resource/uiresource"
-	"Osman/github.com/inventory_backend/resource/usecaseResource"
-	"Osman/github.com/inventory_backend/server"
-	usecases "Osman/github.com/inventory_backend/usecase"
+	"github.com/osmanzz/inventory_backend/db"
+	new "github.com/osmanzz/inventory_backend/init"
+	"github.com/osmanzz/inventory_backend/resource/uiresource"
+	"github.com/osmanzz/inventory_backend/resource/usecaseResource"
+	"github.com/osmanzz/inventory_backend/server"
+	usecases "github.com/osmanzz/inventory_backend/usecase"
 	"github.com/julienschmidt/httprouter"
 	_ "github.com/lib/pq"
 )
