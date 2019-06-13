@@ -3,6 +3,7 @@ package usecase
 import (
 	"encoding/json"
 	"errors"
+	"fmt"
 
 	"Osman/backendapps/db"
 	"Osman/backendapps/resource/usecaseResource"
@@ -58,4 +59,8 @@ func (u *UsecaseData) castHTTPRequest(target interface{}) error {
 	}
 	return nil
 
+}
+
+func test () {
+	fmt.Println("yeye")
 }
