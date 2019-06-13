@@ -3,12 +3,10 @@ package api
 import (
 	"github.com/osmanzz/inventory_backend/resource/uiresource"
 	"github.com/osmanzz/inventory_backend/usecase"
-	"log"
 	"net/http"
 )
 
 func SelecUserHandler(req *http.Request, writer http.ResponseWriter, uires uiresource.UIResource,useCase usecase.HttpHandlerUseCase) (interface{},error){
-	log.Printf("jancuk")
 
 	data := uires.CreateUseCaseData()
 	resp,err := useCase(data,uires.Usecase)
