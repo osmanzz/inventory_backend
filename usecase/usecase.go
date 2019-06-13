@@ -61,6 +61,3 @@ func (u *UsecaseData) castHTTPRequest(target interface{}) error {
 
 }
 
-func test () {
-	fmt.Println("yeye")
-}
