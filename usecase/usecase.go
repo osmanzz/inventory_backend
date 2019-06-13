@@ -3,10 +3,9 @@ package usecase
 import (
 	"encoding/json"
 	"errors"
-	"fmt"
 
-	"Osman/backendapps/db"
-	"Osman/backendapps/resource/usecaseResource"
+	"Osman/github.com/inventory_backend/db"
+	"Osman/github.com/inventory_backend/resource/usecaseResource"
 	"net/http"
 )
 

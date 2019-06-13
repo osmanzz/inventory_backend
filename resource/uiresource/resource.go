@@ -1,9 +1,9 @@
 package uiresource
 
 import (
-	cons_http "Osman/backendapps/cons/http"
-	"Osman/backendapps/resource/usecaseResource"
-	"Osman/backendapps/usecase"
+	cons_http "Osman/github.com/inventory_backend/cons/http"
+	"Osman/github.com/inventory_backend/resource/usecaseResource"
+	"Osman/github.com/inventory_backend/usecase"
 	"encoding/json"
 	"net/http"
 

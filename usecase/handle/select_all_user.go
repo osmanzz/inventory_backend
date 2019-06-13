@@ -1,8 +1,8 @@
 package handle
 
 import (
-	"Osman/backendapps/resource/usecaseResource"
-	"Osman/backendapps/usecase"
+		"Osman/github.com/inventory_backend/resource/usecaseResource"
+	"Osman/github.com/inventory_backend/usecase"
 )
 
 func SelectAllUserHandle(ucData *usecase.UsecaseData,resource usecaseResource.UsecaseResource) (interface{},error){

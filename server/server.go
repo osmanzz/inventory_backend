@@ -1,7 +1,7 @@
 package server
 
 import (
-	"Osman/backendapps/resource/uiresource"
+	"Osman/github.com/inventory_backend/resource/uiresource"
 	"github.com/julienschmidt/httprouter"
 )
 
