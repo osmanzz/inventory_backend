@@ -57,6 +57,5 @@ func (u *UsecaseData) castHTTPRequest(target interface{}) error {
 			return err
 		}
 	}
-	fmt.Println("yeye")
 	return nil
 }
