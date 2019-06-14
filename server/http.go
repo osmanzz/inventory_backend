@@ -5,6 +5,7 @@ import (
 	"github.com/osmanzz/inventory_backend/service/api"
 	"github.com/osmanzz/inventory_backend/usecase"
 	"github.com/osmanzz/inventory_backend/usecase/handle"
+	"github.com/rs/cors"
 	"net/http"
 )
 
@@ -29,7 +30,12 @@ type handler struct {
 func (h *httpServer) Run() {
 	h.RegisterRestfulAPI()
 	h.route()
-	http.ListenAndServe(":8081", h.router)
+
+	c := cors.New(cors.Options{
+		AllowedOrigins: []string{"*"},
+	})
+	handler := c.Handler(h.router)
+	http.ListenAndServe(":8081", handler)
 }
 
 func (h *httpServer) addHandler(method, path string, handleFunc httpHandleFunc, usecase usecase.HttpHandlerUseCase) {
