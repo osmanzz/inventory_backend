@@ -1,6 +1,7 @@
 package handle
 
 import (
+	"fmt"
 	"github.com/osmanzz/inventory_backend/resource/usecaseResource"
 	"github.com/osmanzz/inventory_backend/usecase"
 )
@@ -25,6 +26,7 @@ func LoginHandle(ucData *usecase.UsecaseData,resource usecaseResource.UsecaseRes
 	}
 
 	data,err  := resource.Repo.SelectUserByUsername(request.Username,request.Password)
+	fmt.Printf("%+v",data)
 	if err != nil {
 		response.Success = 0
 		response.Message = err.Error()
